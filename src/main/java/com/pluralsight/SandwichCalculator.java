@@ -35,7 +35,7 @@ public class SandwichCalculator {
         if(isLoaded.equals("yes") && size.equals("1")){
             sandwichPrice+=1;
         }
-        if(isLoaded.equals("no") && size.equals("2")){
+        if(isLoaded.equals("yes") && size.equals("2")){
             sandwichPrice+=1.75;
         }
 
