@@ -32,10 +32,10 @@ public class SandwichCalculator {
         String isLoaded = scanner.nextLine();
 
         //adjust sandwich price based on user input
-        if(isLoaded.equals("yes")){
+        if(isLoaded.equals("yes") && size.equals("1")){
             sandwichPrice+=1;
         }
-        if(isLoaded.equals("no")){
+        if(isLoaded.equals("no") && size.equals("2")){
             sandwichPrice+=1.75;
         }
 
